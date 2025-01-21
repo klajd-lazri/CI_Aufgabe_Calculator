@@ -1,3 +1,4 @@
+# Continuous Integration
 
 This repository is a demo of how to use GitHub Actions to run tests and build a Java project!
 
