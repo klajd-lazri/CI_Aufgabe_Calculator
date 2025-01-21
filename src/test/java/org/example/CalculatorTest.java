@@ -45,4 +45,10 @@ class CalculatorTest {
 
         assertThrows(IllegalArgumentException.class, () -> calculator.divide(12, 0));
     }
+
+
+    @Test
+    void squareroot() {
+        assertEquals(5, calculator.squareroot(25));
+    }
 }
