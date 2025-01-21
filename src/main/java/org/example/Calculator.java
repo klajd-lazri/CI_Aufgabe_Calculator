@@ -22,4 +22,12 @@ public class Calculator {
         }
     }
 
+    public double squareroot(int a){
+        if(a == 0) {
+            throw new IllegalArgumentException();
+        } else {
+            return Math.sqrt(a);
+        }
+    }
+
 }
