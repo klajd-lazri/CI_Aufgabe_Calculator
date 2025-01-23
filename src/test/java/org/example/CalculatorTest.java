@@ -51,4 +51,10 @@ class CalculatorTest {
     void squareroot() {
         assertEquals(5, calculator.squareroot(25));
     }
+
+     @Test
+    void square() {
+        assertEquals(25, calculator.square(5));
+    }
+
 }
