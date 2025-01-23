@@ -57,4 +57,16 @@ class CalculatorTest {
         assertEquals(25, calculator.square(5));
     }
 
+
+    @Test
+    void calculateSinus() {
+        assertEquals(0.0, Calculator.calculateSinus(0), 1E-9);
+        assertEquals(1.0, Calculator.calculateSinus(Math.PI / 2), 1E-9);
+    }
+
+    @Test
+    void calculateCosinus() {
+        assertEquals(1.0, Calculator.calculateCosinus(0), 1E-9);
+        assertEquals(0.0, Calculator.calculateCosinus(Math.PI / 2), 1E-9);
+    }
 }
